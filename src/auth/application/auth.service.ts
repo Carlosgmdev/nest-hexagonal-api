@@ -1,4 +1,4 @@
-import { Inject, Injectable, NotFoundException, UnauthorizedException } from "@nestjs/common";
+import { Injectable, NotFoundException, UnauthorizedException } from "@nestjs/common";
 import { UserRepository } from "src/user/application/user.repository";
 import User from "src/user/domain/user.model";
 import { SignInDto } from "../infrastructure/dtos/sign-in.dto";
